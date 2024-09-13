@@ -104,7 +104,7 @@ function LikeCoinPluginDocumentSettingPanel(props) {
                       onClick={(e) => {
                         e.preventDefault();
                         document
-                          .querySelector('[aria-label="NewsPress"]')
+                          .querySelector('[aria-label="Web3Press"]')
                           .click();
                       }}
                     >
