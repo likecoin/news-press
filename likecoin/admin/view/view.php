@@ -34,7 +34,7 @@ require_once dirname( __FILE__ ) . '/../../includes/constant/options.php';
 function likecoin_display_admin_pages() {
 	global $likecoin_admin_main_page;
 	$likecoin_admin_main_page = add_menu_page(
-		__( 'Web3Press', 'likecoin' ),
+		__( 'NewsPress', 'likecoin' ),
 		__( 'NewsPress', 'likecoin' ),
 		'edit_posts',
 		'likecoin',
@@ -49,7 +49,7 @@ function likecoin_display_admin_pages() {
 	global $likecoin_admin_plugin_page;
 	$likecoin_admin_plugin_page = add_submenu_page(
 		'likecoin',
-		__( 'Web3Press', 'likecoin' ),
+		__( 'NewsPress', 'likecoin' ),
 		__( 'Plugin Setting', 'likecoin' ),
 		'edit_posts',
 		'likecoin',

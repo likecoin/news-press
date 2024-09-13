@@ -16,7 +16,7 @@ const INITIAL_STATE = {
   DBSiteMattersAddFooterLink: false,
   DBSiteInternetArchiveEnabled: false,
   DBSiteInternetArchiveAccessKey: '',
-  DBISCNBadgeStyleOption: 'none',
+  DBISCNBadgeStyleOption: 'light',
 };
 
 const actions = {
