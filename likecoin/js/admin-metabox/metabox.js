@@ -289,7 +289,7 @@ async function onSubmitToISCN(e) {
   const redirectString = encodeURIComponent(siteurl);
   const iscnId = encodeURIComponent(lcPostInfo.iscnId || '');
   const urlString = encodeURIComponent(url);
-  const iscnWidgetURL = `${ISCN_WIDGET_ORIGIN}/nft/url?opener=1&platform=wordpress&redirect_uri=${redirectString}&url=${urlString}&iscn_id=${iscnId}&update=${iscnId ? 1 : 0}`;
+  const iscnWidgetURL = `${ISCN_WIDGET_ORIGIN}/nft/url?opener=1&platform=wordpress&redirect_uri=${redirectString}&url=${urlString}&iscn_id=${iscnId}&update=${iscnId ? 1 : 0}&news_press=1`;
   const ISCNWindow = window.open(
     iscnWidgetURL,
     'likeCoISCNWindow',
