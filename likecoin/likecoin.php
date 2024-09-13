@@ -40,7 +40,7 @@
 define( 'LC_URI', plugin_dir_url( __FILE__ ) );
 define( 'LC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LC_PLUGIN_SLUG', 'likecoin' );
-define( 'LC_PLUGIN_NAME', 'Web3Press By LikeCoin' );
+define( 'LC_PLUGIN_NAME', 'NewsPress by LikerLand' );
 define( 'LC_PLUGIN_VERSION', '3.2.0' );
 
 require_once dirname( __FILE__ ) . '/includes/constant/options.php';
