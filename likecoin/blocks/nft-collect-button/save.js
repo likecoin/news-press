@@ -26,6 +26,7 @@ export default function save({ attributes }) {
     integration: 'wordpress_plugin',
     cta_button_label: ctaButtonLabel,
     iscn_id: iscnId,
+    news_press: "1"
   };
   const height = 40;
   const width = 160;
