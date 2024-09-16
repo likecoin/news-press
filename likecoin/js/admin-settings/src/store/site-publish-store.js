@@ -121,9 +121,9 @@ const resolvers = {
       sitePublishOptions.site_matters_auto_save_draft = DBSiteMattersAutoSaveDraft;
       sitePublishOptions.site_matters_auto_publish = DBSiteMattersAutoPublish;
       sitePublishOptions.site_matters_add_footer_link = DBSiteMattersAddFooterLink;
-      if (!sitePublishOptions.iscn_badge_style_option) {
+      // if (!sitePublishOptions.iscn_badge_style_option) {
         sitePublishOptions.iscn_badge_style_option = INITIAL_STATE.DBISCNBadgeStyleOption;
-      }
+      // }
       return actions.setSitePublishOptions(sitePublishOptions);
     } catch (error) {
       return actions.setHTTPErrors(error.message);
