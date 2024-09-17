@@ -53,7 +53,6 @@ export default function Edit({
     integration: 'wordpress_plugin',
     cta_button_label: ctaButtonLabel,
     iscn_id: iscnId,
-    news_press: "1"
   };
   const height = 40;
   const width = 160;
