@@ -26,6 +26,7 @@ export default function save({ attributes }) {
     integration: 'wordpress_plugin',
     cta_button_label: ctaButtonLabel,
     iscn_id: iscnId,
+    like_bar: '0',
   };
   const height = 40;
   const width = 160;

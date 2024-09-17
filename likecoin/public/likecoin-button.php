@@ -161,7 +161,7 @@ function likecoin_add_likebutton( $likecoin_id = '', $is_shortcode = false ) {
 		$widget_code            = '<figure class="likecoin-embed likecoin-button"><iframe scrolling="no" frameborder="0" ' . $sandbox_attr .
 		'style="height:' . ( $is_iscn_button ? '480px' : '212px' ) . ';width: 360px;" ' .
 		'src="https://button.' . LC_LIKE_CO_HOST . '/in/embed/' . $likecoin_id . '/button' .
-		'?type=wp&integration=wordpress_plugin' . $like_target . '"></iframe></figure>';
+		'?type=wp&integration=wordpress_plugin&like_bar=0' . $like_target . '"></iframe></figure>';
 		$likecoin_button_widget = $widget_code;
 	}
 
