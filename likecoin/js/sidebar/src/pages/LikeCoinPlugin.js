@@ -163,7 +163,7 @@ function LikeCoinPlugin() {
     const iscnId = encodeURIComponent(ISCNId || '');
     const redirectString = encodeURIComponent(siteurl);
     const urlString = encodeURIComponent(currentPost.link || '');
-    const popUpWidget = `${ISCN_WIDGET_ORIGIN}/nft/url?opener=1&platform=wordpress&redirect_uri=${redirectString}&url=${urlString}&iscn_id=${iscnId}&update=${iscnId ? 1 : 0}`;
+    const popUpWidget = `${ISCN_WIDGET_ORIGIN}/nft/url?opener=1&platform=wordpress&redirect_uri=${redirectString}&url=${urlString}&iscn_id=${iscnId}&update=${iscnId ? 1 : 0}&news_press=1`;
     try {
       const popUp = window.open(
         popUpWidget,
@@ -285,7 +285,7 @@ function LikeCoinPlugin() {
     const redirectString = encodeURIComponent(siteurl);
     const nftUrl = NFTClassId ? `https://${likerlandHost}/nft/class/${encodeURIComponent(
       NFTClassId,
-    )}` : `${NFT_WIDGET_ORIGIN}/nft/iscn/${encodeURIComponent(ISCNId)}?opener=1&platform=wordpress&redirect_uri=${redirectString}`;
+    )}` : `${NFT_WIDGET_ORIGIN}/nft/iscn/${encodeURIComponent(ISCNId)}?opener=1&platform=wordpress&redirect_uri=${redirectString}&news_press=1`;
     const nftWindow = window.open(nftUrl, '_blank');
     if (nftWindow && !NFTClassId) {
       window.addEventListener('message', onNFTPostMessageCallback, false);

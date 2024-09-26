@@ -34,8 +34,8 @@ require_once dirname( __FILE__ ) . '/../../includes/constant/options.php';
 function likecoin_display_admin_pages() {
 	global $likecoin_admin_main_page;
 	$likecoin_admin_main_page = add_menu_page(
-		__( 'Web3Press', 'likecoin' ),
-		__( 'Web3Press', 'likecoin' ),
+		__( 'NewsPress', 'likecoin' ),
+		__( 'NewsPress', 'likecoin' ),
 		'edit_posts',
 		'likecoin',
 		'likecoin_show_likecoin_admin_main_page_content',
@@ -49,7 +49,7 @@ function likecoin_display_admin_pages() {
 	global $likecoin_admin_plugin_page;
 	$likecoin_admin_plugin_page = add_submenu_page(
 		'likecoin',
-		__( 'Web3Press', 'likecoin' ),
+		__( 'NewsPress', 'likecoin' ),
 		__( 'Plugin Setting', 'likecoin' ),
 		'edit_posts',
 		'likecoin',
@@ -57,27 +57,27 @@ function likecoin_display_admin_pages() {
 	);
 	add_action( 'load-' . $likecoin_admin_plugin_page, 'likecoin_load_menu_admin_js' );
 
-	global $likecoin_button_page;
-	$likecoin_button_page = add_submenu_page(
-		'likecoin',
-		__( 'Web3Press', 'likecoin' ),
-		__( 'Liker ID', 'likecoin' ),
-		'edit_posts',
-		'likecoin_liker_id',
-		'likecoin_show_likecoin_admin_main_page_content'
-	);
-	add_action( 'load-' . $likecoin_button_page, 'likecoin_load_menu_admin_js' );
+	// global $likecoin_button_page;
+	// $likecoin_button_page = add_submenu_page(
+	// 	'likecoin',
+	// 	__( 'Web3Press', 'likecoin' ),
+	// 	__( 'Liker ID', 'likecoin' ),
+	// 	'edit_posts',
+	// 	'likecoin_liker_id',
+	// 	'likecoin_show_likecoin_admin_main_page_content'
+	// );
+	// add_action( 'load-' . $likecoin_button_page, 'likecoin_load_menu_admin_js' );
 
-	global $likecoin_help_page;
-	$likecoin_help_page = add_submenu_page(
-		'likecoin',
-		__( 'Web3Press', 'likecoin' ),
-		__( 'Getting Started', 'likecoin' ),
-		'edit_posts',
-		'likecoin_help',
-		'likecoin_show_likecoin_admin_main_page_content'
-	);
-	add_action( 'load-' . $likecoin_help_page, 'likecoin_load_menu_admin_js' );
+	// global $likecoin_help_page;
+	// $likecoin_help_page = add_submenu_page(
+	// 	'likecoin',
+	// 	__( 'Web3Press', 'likecoin' ),
+	// 	__( 'Getting Started', 'likecoin' ),
+	// 	'edit_posts',
+	// 	'likecoin_help',
+	// 	'likecoin_show_likecoin_admin_main_page_content'
+	// );
+	// add_action( 'load-' . $likecoin_help_page, 'likecoin_load_menu_admin_js' );
 }
 /**
  * Show default UI for admin main page.

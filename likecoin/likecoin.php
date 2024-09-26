@@ -1,6 +1,6 @@
 <?php
 /**
- * Web3Press by LikeCoin
+ * NewsPress
  *
  * Plugin for embbeding LikeCoin functionalities into WordPress.
  *
@@ -10,11 +10,11 @@
  * @link      https://github.com/likecoin/likecoin-wordpress
  * @copyright 2018 LikerLand
 
- * Plugin Name:  Web3Press by LikeCoin
- * Plugin URI:   https://github.com/likecoin/likecoin-wordpress
+ * Plugin Name:  NewsPress
+ * Plugin URI:   https://github.com/likecoin/news-press
  * Description:  Publishes your posts to the blockchain. Sell your posts, share your work, build community, preserve content.
  * Version:      3.2.0
- * Author:       LikeCoin
+ * Author:       LikerLand
  * Author URI:   https://like.co/
  * License:      GPLv3
  * License URI:  https://www.gnu.org/licenses/gpl-3.0.html
@@ -40,7 +40,7 @@
 define( 'LC_URI', plugin_dir_url( __FILE__ ) );
 define( 'LC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LC_PLUGIN_SLUG', 'likecoin' );
-define( 'LC_PLUGIN_NAME', 'Web3Press By LikeCoin' );
+define( 'LC_PLUGIN_NAME', 'NewsPress by LikerLand' );
 define( 'LC_PLUGIN_VERSION', '3.2.0' );
 
 require_once dirname( __FILE__ ) . '/includes/constant/options.php';

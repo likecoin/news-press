@@ -82,7 +82,7 @@ function LikeCoinPluginSideBar(props) {
   return (
     <PluginSidebar
       name='likecoin-sidebar'
-      title={__('Web3Press', 'likecoin')}
+      title={__('NewsPress', 'likecoin')}
       icon={<Web3PressIconPinbar color={pinBarIconColor} />}
     >
       <div className='divOuterHolder'>

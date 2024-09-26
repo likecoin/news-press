@@ -93,7 +93,7 @@ function likecoin_add_metabox() {
 	if ( likecoin_is_block_editor() ) {
 		return;
 	}
-	add_meta_box( 'like-coin', __( 'Web3Press', LC_PLUGIN_SLUG ), 'likecoin_display_meta_box' );
+	add_meta_box( 'like-coin', __( 'NewsPress', LC_PLUGIN_SLUG ), 'likecoin_display_meta_box' );
 }
 
 /**

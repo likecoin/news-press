@@ -43,7 +43,7 @@ function likecoin_content_filter( $content ) {
 		if ( ! empty( $post->post_password ) ) {
 			return $content;
 		}
-		$content = $content . likecoin_add_likebutton() . likecoin_add_iscn_badge( $post );
+		$content = $content . likecoin_add_iscn_badge( $post ) . likecoin_add_likebutton() ;
 	}
 	return $content;
 }

@@ -26,7 +26,7 @@ function LikeCoinPluginDocumentSettingPanel(props) {
   return (
     <PluginDocumentSettingPanel
       name='depub-panel'
-      title={__('Web3Press', 'likecoin')}
+      title={__('NewsPress', 'likecoin')}
       className='depub-panel'
       icon={<Web3PressIcon color='#9B9B9B' paddingLeft='10px' />}
     >

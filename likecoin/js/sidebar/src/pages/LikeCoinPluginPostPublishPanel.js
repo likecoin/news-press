@@ -16,7 +16,7 @@ function LikeCoinPluginPostPublishPanel(props) {
       <div className='divOuterHolderStatusInfoPanel'>
         <div className='flexBoxRow'>
           <div className='dePubDiv'>
-            <p className='dePubStatusRed'>{__('Web3Press', 'likecoin')}</p>
+            <p className='dePubStatusRed'>{__('NewsPress', 'likecoin')}</p>
           </div>
           <div className='likeCoinIconOuterDiv'>
             <Web3PressIcon color='#9B9B9B' />
